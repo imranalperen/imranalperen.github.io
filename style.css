@@ -147,9 +147,10 @@ a:hover {
     }
 
     .keywords {
-        padding: 1.5em 0 1.5em 0;
+        padding: 1.5em 1em 1.5em 1em;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .keyword {
@@ -157,21 +158,7 @@ a:hover {
     }
     
     .keyword > a {
-        border: 1px solid white;
-        padding: .5em;
-        cursor: pointer;
-        border-radius: 10px;
         margin-right: .7em;
-    }
-    
-    .keyword > a {
-        text-decoration: none;
-    }
-    
-    .keyword > a:hover {
-        background-color: #f7f5e9;
-        color: var(--bg);
-        transition: .3s;
     }
 
 }
