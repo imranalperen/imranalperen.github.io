@@ -113,11 +113,6 @@ a:hover {
     transition: .3s;
 }
 
-.top_border {
-    margin: 1.5em 0 1.5em 0;
-    width: 300px;
-}
-
 .second_project {
     padding-top: 3em;
 }
@@ -161,4 +156,37 @@ a:hover {
     }
 
 }
-  
+
+
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 0mm 0mm 0mm 0mm;
+        padding: 0;
+   }
+
+   * {
+        color: black;
+   }
+
+   .second_project {
+        padding-top: 1em;
+   }
+
+   .header-container {
+        margin: 1em 2em 0 2em;
+   }
+
+   .keywords {
+        padding: 0;
+   }
+
+   .header {
+        font-weight: 500;
+   }
+
+   .project_title {
+        font-weight: 300;
+   }
+}
